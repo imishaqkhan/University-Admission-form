@@ -1,0 +1,117 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+.header{
+    background-color: #fff;
+    width: 96%;
+    padding: 20px;
+    margin:0px;
+}
+.accordion {
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+
+.accordion-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.accordion-header {
+    display: block;
+    
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    text-align: left;
+    border-radius: 5px 5px 0 0;
+    transition: background-color 0.3s;
+}
+.accordion-header span{
+    justify-content: space-between;
+    float: right;
+}
+.accordion-header:hover {
+    background-color: #0056b3;
+}
+
+.accordion-checkbox {
+    display: none;
+}
+
+.accordion-content {
+    display: none;
+    padding: 15px;
+}
+
+.accordion-checkbox:checked + .accordion-header + .accordion-content {
+    display: block;
+}
+
+.accordion-content .user-detail{
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.user-detail .user-info{
+     width: calc(100% / 2 - 15px);
+     display: flex;
+     flex-direction: column;
+}
+.user-info label{
+   padding:10px;
+   margin-left: 2px;
+}
+.user-info input,select{
+  width: 93%;
+  height: 42px;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.user-info select,option{
+    width: 98%;
+    height: 42px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+.btn{
+    display: block;
+    padding: 1px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #fff;
+    color: white;
+    text-align: right;
+    border-radius: 5px 5px 0 0;
+    transition: background-color 0.3s;
+}
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin:10px;
+   
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}

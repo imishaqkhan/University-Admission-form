@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission form</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+          <h1>University Admission Form</h1>
+    </div>
+    <div class="accordion">
+        <!-- Personal Information Section -->
+        <div class="accordion-item">
+            <input type="checkbox" id="accordion-item-1" class="accordion-checkbox">
+            <label for="accordion-item-1" class="accordion-header">Personal Information <span><i class="fa-solid fa-arrow-down"></i></span></label>
+            <div class="accordion-content">
+                <form>
+                    <div class="user-detail">
+                        <div class="user-info">
+                            <label for="">Full Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="user-info">
+                            <label for="">Father name</label>
+                            <input type="text" placeholder="Enter your father name" required>
+                        </div>
+                    </div>
+                    <div class="user-detail">
+                        <div class="user-info">
+                        
+                            <label for="">Date of birth</label>
+                            <input type="date"  required>
+                    
+                        </div>
+            
+                        <div class="user-info">
+                            <label for="">Email Address</label>
+                            <input type="email" placeholder="Enter Email address" required>
+                        </div>
+                    </div>
+                    
+                    <div class="user-detail">
+                            <div class="user-info">
+                                <label for="">Mobile number</label>
+                                <input type="number" placeholder="Enter Mobile number" required>
+                            </div>
+                            
+                      <div class="user-info">
+                        
+                            <label for="">Religion*</label>
+                            <select name="religion" id="" required>
+                            <option value="">Islam</option>
+                            <option value="">Christianity</option>
+                            <option value="">Hinduism</option>
+                            <option value="">sikhinism</option>
+                            <option value="">others</option>
+                        </select>
+                        </div>
+                    </div>
+                   
+                    <div class="user-detail">
+                        <div class="user-info">
+                            <label for="">Applicant's CNIC/Form B</label>
+                            <input type="number" placeholder="Enter CNIC|Form B" required>   
+                        </div>
+                        <div class="user-info">
+                            <label for="">Nationality</label>
+                            <select name="nationality" id="">
+                                <option value="">Pakistani</option>
+                                <option value="">Afghan</option>
+                                <option value="">Indian</option>
+                                <option value="">Amrican</option>
+                            </select>
+                            </div>
+                    
+                        
+                             <div class="user-info">
+                                <label for="">Gender</label>
+                                <select name="" id="" required>
+                                <option value="">Male</option>
+                                <option value="">Female</option>
+                                <option value="">Other</option>
+                                
+                                </select>
+                            </div>
+                        </div>
+                        <div class="user-detail">
+                              <div class="user-info">
+                                
+                                <label for="">Father CNIC</label>
+                                <input type="number" placeholder="Enter Father CNIC" required>
+                            </div>
+                              <div class="user-info">
+                                <label for="">Parent Mobile number</label>
+                                <input type="number" placeholder="Enter parent mobile number" required>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Address Section -->
+        <div class="accordion-item">
+            <input type="checkbox" id="accordion-item-2" class="accordion-checkbox">
+            <label for="accordion-item-2" class="accordion-header">Applicant Address Details <span><i class="fa-solid fa-arrow-down"></i></span></label>
+            <div class="accordion-content">
+                <h1>Parmanent Address</h1>
+                <form>
+                    <div class="user-detail">
+                        <div class="user-info">
+                            <label for="">House No</label>
+                            <input type="number" id="" placholder="Enter House no" required>
+                        
+                          </div>
+                        <div class="user-info">
+                            <label for="">Street No</label>
+                            <input type="number" id="" title="Enter Street no" required>
+                          </div>
+                    </div>
+                    <div class="user-detail">
+                        <div class="user-info">
+                            <label for="village">Village/Area</label>
+                            <input type="text" id="village" title="Enter Village /Area" required>
+                        
+                          </div>
+                        <div class="user-info">
+                            <label for="">Tehsile</label>
+                            <select name="" id="" placholder="Enter tehsile" required>
+                            <option value="">Swabi</option>
+                            <option value="">Lahor</option>
+                            <option value="">Mardan</option>
+                            <option value="">Peshawar</option>
+                            </select>
+                        
+                          </div>
+                    </div>
+                    <div class="user-detail">
+                        <div class="user-info">
+                            <label for="">Province</label>
+                            <select name="" id="" required>
+                                <option value="">khyber pakhtonkhwa</option>
+                                <option value="">Sindh</option>
+                                <option value="">Punjab</option>
+                                <option value="">Balochistan</option>
+                        </select>
+                        </div>
+        
+                      <div class="user-info">
+                    
+                            <label for="">Domicile District</label>
+                            <select name="" id="" required>
+                            <option value="">swabi</option>
+                            <option value="">Lahor</option>
+                            <option value="">peshawar</option>
+                            <option value="">Islamabad</option>
+                            <option value="">Mardan</option>
+                        </select>
+                        </div>
+                    </div>
+                   
+                </form>
+            </div>
+        </div>
+
+        <!-- Academic Qualification Section -->
+        <div class="accordion-item">
+            <input type="checkbox" id="accordion-item-3" class="accordion-checkbox">
+            <label for="accordion-item-3" class="accordion-header">Academic/Qualification <span><i class="fa-solid fa-arrow-down"></i></span></label>
+            <div class="accordion-content">
+                <form>
+                    <div class="user-detail">
+                        <div class="user-info">
+                            <label for="">Certificate / Degree</label>
+                            <select name="" id="" title="Choose your exam level" required>
+                                <option value="">SSC</option>
+                                <option value="">HSSC</option>
+                                <option value="">BA-BSC</option>
+                                <option value="">BS</option>
+                                <option value="">MA-MSC</option>
+                                <option value="">MA</option>
+                                
+                            </select>
+                        </div>
+                        <div class="user-info">
+                            <label for="">Subject / Discipline</label>
+                            <select name="" id="" title="" required>
+                                <option value="">Computer science</option>
+                                <option value="">Mathematics</option>
+                                <option value="">English</option>
+                                <option value="">Botany</option>
+                                <option value="">Physics</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="user-detail">
+                        <div class="user-info">
+                            <label for="">Year of Passing</label>
+                            <select name="" id="" required>
+                                <option value="">2024</option>
+                                <option value="">2023</option>
+                                <option value="">2022</option>
+                                <option value="">2021</option>
+                                <option value="">2020</option>
+                                <option value="">2019</option>
+                                <option value="">2018</option>
+                                <option value="">2017</option>
+                          </select>
+                        </div>
+                        
+                        <div class="user-info">
+                            <label for="">Board/University</label>
+                            <select name="" id="" required>
+                                <option value="">BISE Mardan</option>
+                                <option value="">BISE DI Khan</option>
+                                <option value="">BISE Malakand</option>
+                                <option value="">BISE Swat</option>
+                                <option value="">BISE Banu</option>
+                                <option value="">BISE Peshawar</option>
+                                <option value="">BISE Abbotabad</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="user-detail">
+                        <div class="user-info">
+                            <label for="">Session of Exam</label>
+                            <select name="" id="" required>
+                                <option value="">Enter session</option>
+                                <option value="">Anual</option>
+                                <option value="">Suplimentry</option>
+                              
+                          </select>
+                        </div>
+                        <div class="user-info">
+                            <label for="">Roll Number</label>
+                            <input type="number" required>
+                        </div>
+                    </div>
+                    <div class="user-detail">
+                        <div class="user-info">
+                            <label for="">Total Marks</label>
+                            <input type="number" placeholder="Enter total marks" required>
+                        </div>
+                        <div class="user-info">
+                            <label for="">Obtained Marks</label>
+                            <input type="number" placeholder="Enter obtain marks" required>
+                        </div>
+                    </div>
+                    <div class="user-detail">
+                        
+                        <div class="user-info">
+                           <label>Upload DMC/Transcript</label>
+                           <div><input type="file"></div> 
+                        </div>
+                        <div class="user-info">
+                            <label for="">Upload copy of Certificate/Degree</label>
+                           <input type="file">
+                        </div>
+                    </div>
+                    
+                   
+                </form>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="submit-button" type="button"> BACK</button>
+            <button class="submit-button" type="button" value="submit">SAVE AND SUBMIT</button>
+         </div>
+    </div>
+</body>
+</html>
